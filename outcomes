@@ -1,0 +1,27 @@
+# 2. Outcomes plane
+Category	Metric	Target	Description	Value Outcomes
+Strategic KPI	Automation Rate	90%	Percentage of Account Reconciliation completed by Agent without human intervention (Excluding approval)	
+Strategic KPI	Administrative Cost Reduction (SG&A)	70-80%	Reduction in labor costs / amount of human work hours freed up through automation and assistance.	
+Strategic KPI	Cycle Time Reduction	≥ 10-20%	Time saved in monthly/quarterly close processes.	
+Strategic KPI	Accuracy of financial data	No errors	Financial Data / Reports are accurate and comply with accounting standards	
+Cost KPI	Cost Savings (ROI)	> 100% ROI in first year (TBC with AI)	Reduction in operational costs due to the AI, expressed as Return on Investment. This compares the “old” cost of performing work manually to the “new” cost with the Agentic AI	
+Quality Metric	Accuracy	≥ 95% (near-zero errors)	Percentage of Account Reconciliation submitted by the AI.	
+Quality Metric	Compliance Rate	1	IC Reconciliation must comply with accounting standards (e.g., IFRS, GAAP).	
+Quality Metric	CSAT (Customer Satisfaction)	≥ 90%	Customer satisfaction score based on user feedback.	
+Quality Metric	% of first pass approval BS reconciliation	≥ 97%	% of First pass approval (IC Reconciliation)	
+SLA	Reconciliation Accuracy	≥ 97%	Percentage of AI-generated entries reflecting on Account Reconciliation that are correct without human intervention.	
+SLA	Timeliness of BS Reconciliation	≥ 97%	Percentage of IC Reconciliation performed on time	
+SLA	Timeliness of submission	≤ 3 mins (TBC with IA)	Time taken by Agentic AI to complete and submit Reconciliation for approval	
+SLA	System Uptime	≥ 99.9%	Availability of the AI system.	
+SLA	Error Identification Time	≤ 3 mins (TBC with IA)	Time to investigate error by Agentic AI	
+SLA	Error Resolution Time	≤ 24 hours (TBD)	Time to resolve flagged or failed actions by end user	
+SLA	Audit Trail Completeness	1	Every IC Reconciliation must be traceable with metadata.	
+Process KPI	Reconciliation Rework Rate	≤ 5%	Measures how often entries need manual correction	
+Process KPI	Exception Rate	≤ 10%	Percentage of BS Reconciling items flagged for review & intervention	
+Process KPI	Learning Loop Efficiency	≥ 90% (TBC with IA)	Percentage of corrections used to retrain/improve the AI.	
+Process KPI	Data Ingestion Latency	≤ 1 minute (TBC with IA)	Time from data availability to AI processing start.	
+Process KPI	Efficiency of Reconciliation approval process	< 2 Working days & 1 Working day (MEC)	% of Adjustment IC Reconciliation awaiting approval less than 48 hrs and MEC over 24 hrs	
+Time to Market	Deployment Time	≤ 3 months	Time taken to deploy the AI system from inception to production.	
+Performance Feedback Mechanism	User Feedback Loop	Monthly	Frequency of collecting and incorporating user feedback.	
+Performance Feedback Mechanism	User Adoption Rate	≥ 90%	Percentage of finance team actively using the AI system.	
+Performance Feedback Mechanism	System Performance Review	Quarterly	Frequency of reviewing Agent performance and making improvements.	
