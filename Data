@@ -1,0 +1,55 @@
+6. Data plane
+Data Sources (types, structures, format)
+Data sources: Blackline, ERP, bank sites, reports, other departments systems (e.g. HR system)
+Format: txt; csv; Excel; pdf; docx, screenshot png/jpg image, ppt
+
+
+Data cleaning & enrichment requirements
+Data cleaning
+IC Reconciliation Risk Rating:
+- Risk Rating align as per Reconciliation Policy and Guidelines
+Account Certification
+Standard templates inbuilt in reconciliation module, supporting documents definition provided upfront per group of accounts
+Chart of Accounts
+-chart of accounts identified with clear rules of accounts usage
+
+Data Enrichment Requirements
+Historical data revision
+-open investigation outside of reconciliation tool for repetitive reconciling items, to eliminate error at source
+Rejection message structure
+Define key components of rejection message content for Approvers to follow one common structure when rejecting reconciliation of an account
+
+
+Consequences of bad data
+Incorrect IC Reconciliation due to errors interpretation of reconciling item leading to not accurate representation of the balance in company ledger
+Audit Issues
+-Auditors may flag discrepancies or require extensive corrections, leading to delays and increased audit costs.
+-In severe cases, it can result in qualified audit opinions or restatements.
+Regulatory Non-Compliance
+-Errors in tax codes, revenue recognition, or expense classification can lead to violations of accounting standards (e.g., GAAP, IFRS) or tax regulations.
+-This may result in fines, penalties, or legal action.
+Financial Misstatements
+-Incorrect or incomplete data can lead to inaccurate financial statements, which misrepresent the company’s financial health.
+Poor Business Decisions
+-Inaccurate data leads to misleading KPIs and dashboards, which can cause poor strategic decisions (e.g., overestimating cash flow or profitability).
+System Integration Failures
+-Bad data can break automated workflows or cause integration errors between ERP, CRM, and reporting systems.
+
+
+Systems (most common)
+ERP
+Blackline (various modules: Intercompany, Reconciliation, Transaction Matching, Journal Entry)
+optionally: Trintech Cadency (various modules)
+other approval workflow
+Bank site (Bank Statements)
+Insights and Reporting tool
+Outlook 365
+Microsoft Office (Excel, Word, ppt)
+Microsoft SharePoint
+Microsoft Teams
+Adobe Acrobat Reader (pdf)
+KM tool
+
+
+Data compliance (GDPR, PII)
+GDPR-compliant data handling, data protection and security requirements of Cg and client, DPO clearance process
