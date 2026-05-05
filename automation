@@ -1,0 +1,15 @@
+5. Automation plane
+Common bottlenecks
+No availability of input data to complete reconciliation
+Approver not approving reconciliation on time
+Lack of response on time when Agent initiated discussion in Intercompany module
+Lack of Explainability: Agent is not able to explain properly what is required to finalize the reconciliation.
+Unpredictability and Reliability: it may take unexpected paths to solve problems, which can lead to inconsistent outcomes.
+
+
+ESOAR
+Eliminate: Manual investigation and explanation of Intercompany reconciling items
+Standardize: communication between parties in the process; rules for error resolution
+Optimize: time of reconciliation cycle by significantly decreasing time of reconciling items resolution and prioritization of high risk accounts in the reconciliation queue.
+Automate: Communication in case of discussion using Intercompany module functionality in collaboration with Agent efforts
+Reimagine: Agentic led Account IC Reconciliation preparation maximizing usage of Blackline Intercompany solution in collaboration with Agent efforts
