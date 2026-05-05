@@ -1,0 +1,20 @@
+3. Experience plane
+Actors & Personalization
+Approver: review, approval/rejection - typically managed by dedicated workflow tool (e.g. Blackline), interaction is formalized and structured due to workflow usage. Journal entry (if needed) is sent for approval directly in Intercompany module
+Human Processor: errors correction - Agent to send info to human with clear description of error and if - possible - suggestion for solution if require adjustment through Journal or report as Mismatch
+Various stakeholders: approached by Agent via Intercompany Module(BLACKLINE) for inputs to the Reconciliation templates, structured e-mail message request for certain type of data with specified data requirement, range, period, format of expected input etc.
+Escalation point resource - to send alert that Recon is going to be delayed due to error not being solved or approval not granted
+Agent - Item Solver
+
+
+Channels
+Blackline Intercompany module to use for interaction with stakeholders, Human Processor and approver
+
+
+Self-service variants
+Can be linked to the front end of Task Assistant agent
+Can cooperate with Journal Preparer to create corrective journal to solve the mismatch
+
+
+User feedback
+Approver reviews the IC Account reconciliation in Intercompany module and provides comment specifying the rejection reason.
