@@ -1,0 +1,67 @@
+4. Process plane
+
+Known variations (incl. policies)
+Various open reconciling items and IC reconciliation depending on industry specific unique nature of transactions, regulatory requirements, and operational models
+
+
+Inputs & Triggers
+Inputs: data from various sources - e.g. reports, Trial Balance Details, Bank Statements, Journal Supporting documentation, Payment Schedules, GR/IR report, Anomaly detector analysis results, Financial Statements, etc.
+Triggers: Intercompany Reconciliation to be prepared as per monthly schedule. Intercompany reconciliation should be done frequently during the month as well (not only in MEC).
+
+
+Time of process (real-time/business-time/batch)
+business-time:
+*IC Account Reconciliation as per accounting calendar date and time agreed upfront
+
+
+Dependencies
+Process can be started only when all the data required to perform reconciliation analysis is available
+Process can be ended only when approver approves reconciliation.
+To perform the process Agent needs access to all required technology sources
+Timely commentary on Intercompany module open discussions from addressed action taker.
+Agent has a good source of knowledge (e.g. detailed up-to-date procedure, policies, guidelines, Business Operating Packs, previous correct journal entries, Trials Balance)
+
+
+Outputs & Handovers
+Outputs:
+Reconciliation completed with all reconciling items solved.
+Process failed output: IC Reconciliation rejected and to be corrected
+Handovers:
+1. Agent cannot solve mismatch and starts discussion with human processor
+2. Agent completes the reconciliation and submit for approval.
+
+
+Deliverables
+IC account Reconciliation submitted and reported with supporting documentation (backup) stored for audit purposes.
+
+
+Skills
+Is able to understand unstructured process documentation and read files and analyze data, is able to understand nature of error and suggest solution, is able to prepare backup (supporting documentation) for JE - i.e.. calculation files, screenshots, is able to consume information provided in various languages
+
+
+Controls
+Risk Control: as per separate tab
+GRC1 Controls: as per separate tab
+
+
+Decisions & Business rules (Intuition/small decisions/decision trees/predictions)
+In IFAO decisions are done by Agent based on business rules, so in case of IC Account Reconciliation it will be decision tree always:
+1. Do I have sufficient data? Yes - proceed with Reconciliation, No - request data, if date still not sufficient or not received on time - escalate to human that Reconciliation cannot be completed and adjustments will not be done
+2. Is there requirement for Journal adjustment based on late adjustments? above threshold for approval? Yes - send for approval, No - submit for posting
+3. Is the item above the materiality level set for the account? Yes, Investigate and solve the items, No, do not investigate and complete reconciliation
+
+
+Variable Steering
+Complete Reconciliation as per schedule but prioritized high risk accounts and value of reconciling items
+Optional: Before submitting IC reconciliation for review there might be a checklist in Blackline module that has to be completed by agent to confirm compliance
+Materiality level of items to be solved (for certain accounts immaterial items do not need to be explained).
+
+
+Frequent thresholds
+Materiality level - some clients introduce materiality levels. I.e. if adjustment or amount is immaterial for reconciliation. Write-off on open items mismatch report
+Approval threshold - Some accounts might be auto certified upon completion without approval from approver/ account owner
+
+
+Minimum human interaction (exceptions / oversight definitions)
+Human to review and certify account reconciliations based on risk rating, Open Items/Mismatch report.
+There should be human control process on completeness and accuracy of Account Reconciliation submitted.
